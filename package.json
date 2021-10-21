@@ -1,7 +1,7 @@
 {
   "name": "cubicle",
   "version": "1.0.0",
-  "description": "",
+  "description": "MPA App",
   "main": "index.js",
   "scripts": {
     "start": "SET NODE_ENV=development nodemon ./src/index.js",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maykalgenchev/Rubik-s-Cube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maykalgenchev/Rubik-s-Cube/issues"
+  },
+  "homepage": "https://github.com/maykalgenchev/Rubik-s-Cube#readme"
 }
