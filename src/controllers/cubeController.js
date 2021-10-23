@@ -8,7 +8,7 @@ const router = express.Router();
 const getCreateCubePage = (req, res) => {
     // let cubes = await cubeService.getAll();
 
-    res.render('create');
+    res.render('cube/create');
 };
 
 const createCube = async (req, res) => {
